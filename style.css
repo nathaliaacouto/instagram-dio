@@ -1,0 +1,120 @@
+*{
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.all {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 60%;
+    height: 100vh;
+}
+
+.phones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.phones img {
+    height: 50rem;
+}
+
+.continue {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+}
+
+.boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    padding: 0px 0;
+    border: 1px solid lightgray;
+}
+
+.boxes:nth-child(1) {
+    min-height: 19rem;
+
+}
+
+.logo {
+    height: 8rem;
+    margin-bottom: 0px;
+}
+
+.photo-prof {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 10rem;
+    margin: 5px;
+}
+
+.continue-as {
+    background-color: #0095f6;
+    color: #ffff;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.remove {
+    color: #0095f6;
+    margin-top: 1rem;
+    margin: 3px;
+}
+
+a {
+    text-decoration: none;
+    color: #0095f6;
+}
+
+.account {
+    text-align: center;
+    color:rgb(160, 160, 160);
+}
+
+.get {
+    align-items: center;
+    display: flex; 
+    justify-content: center;
+    width: 100%;
+}
+
+@media (max-width: 1024px) {
+    .all {
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    .all {
+        width: 90%;
+    }
+    .phones {
+        display: none;
+    }
+    .continue {
+        width: 100%;
+    }
+}
